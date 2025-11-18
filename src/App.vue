@@ -6,15 +6,14 @@ import ContactBar from '@/components/ContactBar.vue'
 <template>
   <section class="container">
     <header><nav-bar/></header>
-    <section><router-view/></section>
-    <section></section>
+    <section class="products">
+      <router-view/>
+    </section>
     <footer><contact-bar/></footer>
   </section>
-
 </template>
 
 <style scoped>
-
   section.container {
     display: flex;
     flex-direction: column;
@@ -22,6 +21,12 @@ import ContactBar from '@/components/ContactBar.vue'
 
     > * {
       border: 1px solid red;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
   }
 </style>

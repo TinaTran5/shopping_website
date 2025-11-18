@@ -11,7 +11,8 @@
       <div>Mon - Sat: 10:00am - 8:00pm</div>
     </div>
     <div class="line"></div>
-    <p>&copy; 2025 All rights reserved</p>
+
+    <p class="copy">&copy; 2025 All rights reserved</p>
   </div>
 </template>
 
@@ -21,7 +22,6 @@
   flex-direction: column;
   padding: 20px;
   background-color: white;
-  border-radius: 10px;
   gap: 15px;
 
   div.line {
@@ -31,7 +31,9 @@
   div.hours {
     display: flex;
     flex-direction: column;
-
+  }
+  p.copy {
+    text-align: center;
   }
 }
 </style>
