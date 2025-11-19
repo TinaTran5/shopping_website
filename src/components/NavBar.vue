@@ -1,10 +1,12 @@
 <script setup>
+import HamburgerMenu from '@/components/HamburgerMenu.vue'
 </script>
 
 <template>
   <nav class="container">
     <div class="menu">
-      <img class="hamburger" src="/src/assets/menu-icon.svg" alt="hamburger"/>
+<!--      <img class="hamburger" src="/src/assets/menu-icon.svg" alt="hamburger"/>-->
+      <HamburgerMenu/>
     </div>
     <div>
       <router-link to="/">
