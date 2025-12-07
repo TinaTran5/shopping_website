@@ -1,5 +1,8 @@
 <script setup>
 import HamburgerMenu from '@/components/HamburgerMenu.vue'
+import { useCart } from '@/composables/useCart'
+
+const { cartCount } = useCart()
 </script>
 
 <template>
@@ -16,6 +19,9 @@ import HamburgerMenu from '@/components/HamburgerMenu.vue'
     <div>
       <router-link to="/cart">
        <img class="cart" src="/src/assets/cart.svg" alt="cart"/>
+        <span v-if="cartCount > 0" class="cart-badge">
+          {{cartCount}}
+        </span>
       </router-link>
     </div>
   </nav>

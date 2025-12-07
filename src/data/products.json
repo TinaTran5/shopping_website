@@ -1,8 +1,16 @@
 [
   {
     "id": 1,
-    "product": "Peanut Brittle",
+    "name": "Peanut Brittle",
     "description": "yummy yummy homemade peanut brittle ginger candy",
-    "thumbnail": "",
+    "thumbnail": "/src/assets/products/peanut.jpeg",
+    "price": 10.99
+  },
+  {
+    "id": 2,
+    "name": "Yogurt",
+    "description": "yummy yummy yogurt",
+    "thumbnail": "src/assets/products/yogurt.jpeg",
+    "price": 2.00
   }
 ]

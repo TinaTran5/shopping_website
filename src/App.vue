@@ -24,7 +24,6 @@ import ContactBar from '@/components/ContactBar.vue'
     }
 
     footer {
-      position: fixed;
       bottom: 0;
       width: 100%;
     }
