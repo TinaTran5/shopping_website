@@ -1,21 +1,18 @@
 <script setup>
 
 import HeroPage from '@/components/HeroPage.vue'
+import BestSeller from '@/components/BestSeller.vue'
 </script>
 
 <template>
-  <div>
-    <h1>Home Page</h1>
+  <section class="heroPage">
     <HeroPage/>
+    <BestSeller/>
 
-  </div>
+  </section>
 </template>
 
 <style scoped>
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
+
+
 </style>

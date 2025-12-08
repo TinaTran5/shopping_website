@@ -8,7 +8,6 @@ const { cartCount } = useCart()
 <template>
   <nav class="container">
     <div class="menu">
-<!--      <img class="hamburger" src="/src/assets/menu-icon.svg" alt="hamburger"/>-->
       <HamburgerMenu/>
     </div>
     <div>
@@ -34,6 +33,14 @@ const { cartCount } = useCart()
     background-color: white;
     padding: 10px;
     max-height: 3em;
+    border-bottom: 1px solid gray;
+
+    a {
+      text-decoration: none;
+      font-family: Arial black, sans-serif;
+      color: black;
+      transition-duration: 0.2s;
+    }
 
     div {
       display: flex;
@@ -51,7 +58,7 @@ const { cartCount } = useCart()
         }
       }
 
-      .cart, .hamburger {
+      .cart {
         width: 30px;
         height: 30px;
         transition: .1s;

@@ -2,15 +2,31 @@
   {
     "id": 1,
     "name": "Peanut Brittle",
-    "description": "yummy yummy homemade peanut brittle ginger candy",
-    "thumbnail": "/src/assets/products/peanut.jpeg",
-    "price": 10.99
+    "vietName": "kẹo đậu phộng",
+    "description": "1lb box of peanut brittle ginger candy",
+    "thumbnail": "/src/assets/products/peanut.png",
+    "price": 13.00,
+    "bestSeller": true,
+    "ingredients": ""
   },
   {
     "id": 2,
     "name": "Yogurt",
+    "vietName": "da ua",
     "description": "yummy yummy yogurt",
-    "thumbnail": "src/assets/products/yogurt.jpeg",
-    "price": 2.00
+    "thumbnail": "src/assets/products/yogurt.png",
+    "price": 2.00,
+    "bestSeller": true,
+    "ingredients": ""
+  },
+  {
+    "id": 3,
+    "name": "Pickled Shallots",
+    "vietName": "củ kiệu",
+    "description": "shallots",
+    "thumbnail": "",
+    "price": 20.00,
+    "bestSeller": false,
+    "ingredients": ""
   }
 ]
