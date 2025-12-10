@@ -7,10 +7,11 @@
       <p class="tagline">Eat Good, Feel Good</p>
       <p>
         Homemade Vietnamese vegetarian treats crafted with simple ingredients.
-        <br />
-        Enjoy our fresh yogurt and crunchy peanut brittle made daily in small batches
+        Enjoy our fresh yogurt, crunchy peanut brittle, and vegetarian snacks! Yum Yum.
       </p>
-      <button>Order Now</button>
+      <router-link to="/products">
+        <button> Order Now</button>
+      </router-link>
     </div>
     <div class="right">
       <img src="/src/assets/vegetarian.jpg" alt="peanut" />

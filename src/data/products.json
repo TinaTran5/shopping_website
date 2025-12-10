@@ -24,8 +24,28 @@
     "name": "Pickled Shallots",
     "vietName": "củ kiệu",
     "description": "shallots",
-    "thumbnail": "",
+    "thumbnail": "src/assets/products/cu-kieu.webp",
     "price": 20.00,
+    "bestSeller": false,
+    "ingredients": ""
+  },
+  {
+    "id": 4,
+    "name": "Vegetarian Beef Jerky",
+    "vietName": "củ kiệu",
+    "description": "",
+    "thumbnail": "src/assets/products/jerky.png",
+    "price": 10.00,
+    "bestSeller": false,
+    "ingredients": ""
+  },
+  {
+    "id": 5,
+    "name": "Vegetarian Chicken Jerky",
+    "vietName": "củ kiệu",
+    "description": "",
+    "thumbnail": "src/assets/products/jerky.png",
+    "price": 10.00,
     "bestSeller": false,
     "ingredients": ""
   }

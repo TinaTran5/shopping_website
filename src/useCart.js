@@ -1,6 +1,6 @@
 import { ref, computed } from 'vue'
 
-// shared cart state
+// reactive array
 const cart = ref([])
 
 export function useCart() {
@@ -18,7 +18,6 @@ export function useCart() {
   }
 
   function removeFromCart(id) {
-    // FIXED: remove the item instead of keeping only that item
     cart.value = cart.value.filter((item) => item.id !== id)
   }
 
@@ -27,23 +26,38 @@ export function useCart() {
   }
 
   function setQuantity(id, qty) {
-    const item = cart.value.find((i) => i.id === id)
+    const item = cart.value.find((item) => item.id === id)
     if (!item) return
 
-    if (qty <= 0) {
-      removeFromCart(id)
-    } else {
+    if (qty > 0) {
       item.qty = qty
+    } else {
+      removeFromCart(id)
     }
   }
 
-  const cartCount = computed(() =>
-    cart.value.reduce((sum, item) => sum + item.qty, 0)
-  )
+  // # of items in cart
+  const cartCount = computed(() => {
+    let total = 0
 
-  const cartTotal = computed(() =>
-    cart.value.reduce((sum, item) => sum + item.price * item.qty, 0)
-  )
+    for (const item of cart.value) {
+      total += item.qty
+    }
+
+    return total
+  })
+
+  // total price in cart
+  const cartTotal = computed(() => {
+    let total = 0
+
+    for (const item of cart.value) {
+      total += item.price * item.qty
+    }
+
+    return total
+  })
+
 
   return {
     cart,

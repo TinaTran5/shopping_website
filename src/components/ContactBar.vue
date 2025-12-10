@@ -19,6 +19,7 @@
 <style scoped>
 .container {
   display: flex;
+  height: 100px;
   flex-direction: column;
   padding: 20px;
   background-color: white;
@@ -33,6 +34,7 @@
     flex-direction: column;
   }
   p.copy {
+    margin: 0;
     text-align: center;
   }
 }

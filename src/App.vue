@@ -6,7 +6,7 @@ import ContactBar from '@/components/ContactBar.vue'
 <template>
   <section class="container">
     <header id="cart"><nav-bar/></header>
-    <section class="products">
+    <section class="content">
       <router-view/>
     </section>
     <footer><contact-bar/></footer>
@@ -15,6 +15,7 @@ import ContactBar from '@/components/ContactBar.vue'
 
 <style scoped>
   section.container {
+    background-color: #5c876d;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -27,7 +28,8 @@ import ContactBar from '@/components/ContactBar.vue'
       z-index: 999;
     }
 
-    .products {
+    .content {
+      min-height: 100vh;
       margin-top: 60px;
       padding: 1rem;
     }
