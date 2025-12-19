@@ -8,7 +8,6 @@ import BestSeller from '@/components/BestSeller.vue'
   <section class="heroPage">
     <HeroPage/>
     <BestSeller/>
-
   </section>
 </template>
 

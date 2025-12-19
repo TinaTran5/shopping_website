@@ -7,17 +7,17 @@
     "thumbnail": "/src/assets/products/peanut.png",
     "price": 13.00,
     "bestSeller": true,
-    "ingredients": ""
+    "ingredients": "peanuts, seseame seeds, ginger"
   },
   {
     "id": 2,
     "name": "Yogurt",
     "vietName": "da ua",
-    "description": "yummy yummy yogurt",
+    "description": "1 bag of yogurt",
     "thumbnail": "src/assets/products/yogurt.png",
     "price": 2.00,
     "bestSeller": true,
-    "ingredients": ""
+    "ingredients": "milk, condensed milk"
   },
   {
     "id": 3,
@@ -27,26 +27,36 @@
     "thumbnail": "src/assets/products/cu-kieu.webp",
     "price": 20.00,
     "bestSeller": false,
-    "ingredients": ""
+    "ingredients": "shallots"
   },
   {
     "id": 4,
     "name": "Vegetarian Beef Jerky",
     "vietName": "củ kiệu",
-    "description": "",
+    "description": "1kg",
     "thumbnail": "src/assets/products/jerky.png",
     "price": 10.00,
     "bestSeller": false,
-    "ingredients": ""
+    "ingredients": "vegetarian beef jerky"
   },
   {
     "id": 5,
     "name": "Vegetarian Chicken Jerky",
     "vietName": "củ kiệu",
-    "description": "",
+    "description": "1kg",
     "thumbnail": "src/assets/products/jerky.png",
     "price": 10.00,
     "bestSeller": false,
-    "ingredients": ""
+    "ingredients": "vegetarian chicken jerky"
+  },
+  {
+    "id": 6,
+    "name": "Vegan Chicken Floss",
+    "vietName": "Cha Bong Ga",
+    "description": "1kg",
+    "thumbnail": "src/assets/products/floss.png",
+    "price": 10.00,
+    "bestSeller": false,
+    "ingredients": "vegan chicken floss"
   }
 ]

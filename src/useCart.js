@@ -1,6 +1,5 @@
 import { ref, computed } from 'vue'
 
-// reactive array
 const cart = ref([])
 
 export function useCart() {
